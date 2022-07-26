@@ -1,8 +1,9 @@
 {
-  "name": "homebridge-tuya-platform",
+  "name": "@dipakparmar/homebridge-tuya-platform",
   "version": "1.4.0",
-  "description": "Official Homebridge plugin for Tuya Open API, maintained by the Tuya Developer Team.",
+  "description": "Fork of Official Homebridge plugin for Tuya Open API.",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": " homebridge -D -U ./config/ -P ./"
@@ -10,9 +11,11 @@
   "keywords": [
     "homebridge-plugin"
   ],
-  "author": "huhuan",
+  "author": "dipakparmar, huhuan",
   "license": "MIT",
-  "homepage": "https://github.com/tuya/tuya-homebridge",
+  "homepage": "https://github.com/dipakparmar/tuya-homebridge",
+  "repository": "https://github.com/dipakparmar/tuya-homebridge.git",
+  "bugs": "https://github.com/dipakparmar/tuya-homebridge/issues",
   "engines": {
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"

@@ -1,5 +1,7 @@
-Tuya Homebridge Plugin
+Fork of Official Tuya Homebridge Plugin
 ========================
+
+Use [github.com/dipakparmar/tuya-homebridge](https://github.com/dipakparmar/tuya-homebridge) for reporting any issues or feature requests.
 
 <p align="center">
     <img src="https://images.tuyacn.com/app/hass/hb_tuya.png" width="70%"><br>
